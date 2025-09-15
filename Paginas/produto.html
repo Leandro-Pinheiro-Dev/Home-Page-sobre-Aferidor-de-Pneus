@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificação e Montagem do Aferidor de Pressão</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css"> <!-- Linkando o CSS externo -->
+</head>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#importancia">Importância</a></li>
+        <li><a href="index.html#Imagem">Imagem</a></li>
+        <li><a href="index.html#Sustentabilidade">Sustentabilidade</a></li>
+        <li><a href="index.html#Conclusão">Conclusão</a></li>
+        <li><a href="index.html#Referências">Bibliografia</a></li>
+        <li><a href="escopo.html">Escopo</a></li>
+        <li><a href="produto.html">Especificações</a></li>
+    </ul>
+</nav>
+
+<body>
+    <header>
+        <h1>Especificação e Montagem do Aferidor de Pressão</h1>
+    </header>
+
+    <section class="Imagens">
+
+        <h2>Componentes Utilizados: </h2>
+        <p>Utilizamos um TTGO ESP32 com Display OLED com bateria embutida, um sensor de temperatura e pressão barométrica BMP 280 e um sensor de pressão SMP3011. Além disso, empregamos cabos macho, uma protoboard, um cabo USB e um computador para desenvolvimento.</p>
+        <br/>
+
+        <h3>TTGO ESP32 com Display OLED: </h3>
+        <p>Essa placa combina um módulo ESP32 com Wi-Fi e Bluetooth, um display OLED e um sistema de alimentação por bateria Li-Ion 18650.</p>
+        <br/>
+        <img src="..\Imagens\esp.jpg" alt="TTGO ESP32 com Display OLED" style="  width: 400px; 
+        height: 300px; border-radius: 15px; display: block; margin: 10px auto;">
+        <br/>
+        
+        <h3>Sensor BMP280</h3>
+        <p>O BMP280 mede pressão barométrica e temperatura com alta precisão, sendo útil em eletrônica e sistemas embarcados.</p>
+        <br/>
+        <img src="..\Imagens\bmp.jpg" alt="Sensor BMP280"   style="width: 400px; 
+        height: 300px; 
+        border-radius: 15px; 
+        display: block;
+        margin: 10px auto">
+        <br/>
+
+        <h3>Sensor de Pressão SMP3011</h3>
+        <p>Utilizado para medir a pressão de fluidos e gases, sendo aplicado em sistemas automotivos e industriais.</p>
+        <br/>
+        <img src="..\Imagens\smp.png" alt="Sensor de Pressão SMP3011" style="  width: 400px; 
+        height: 300px; 
+        border-radius: 15px; 
+        display: block;
+        margin: 10px auto;">
+        <br/>
+
+        <h3>Cabos Macho e Fêmea</h3>
+        <p>Esses cabos conectam os sensores ao ESP32 na protoboard.</p>
+        <br/>
+        <img src="..\Imagens\cabo.jpg" alt="Cabos Macho e Fêmea" style="  width: 400px; 
+        height: 300px; 
+        border-radius: 15px; 
+        display: block;
+        margin: 10px auto;">
+        <br/>
+
+        <h3>Protoboard</h3>
+        <p>Usada para montagem dos circuitos sem a necessidade de solda.</p>
+        <br/>
+        <img src="..\Imagens\protoboard.jpg" alt="Protoboard" style="  width: 400px; 
+        height: 300px; 
+        border-radius: 15px; 
+        display: block;
+        margin: 10px auto;">
+        <br/>
+
+        <h3>Cabo USB</h3>
+        <p>Permite a programação do ESP32 via computador.</p>
+        <br/>
+        <img src="..\Imagens\usb.jpg" alt="Cabo USB" style="  width: 400px; 
+        height: 300px; 
+        border-radius: 15px; 
+        display: block;
+        margin: 10px auto;">
+        <br/>
+
+        <h3>Computador</h3>
+        <p>Utilizado para programar o microcontrolador com Windows 10 e VSCode.</p>
+        <br/>
+        <img src="..\Imagens\computador.png" alt="Computador" style="  width: 400px; 
+        height: 300px; 
+        border-radius: 15px; 
+        display: block;
+        margin: 10px auto;">
+        <br/>
+        
+        <h2>Montagem do Projeto: </h2>
+
+        <h4>Montagem do Medidor de Pressão:</h4>
+        <br/>
+        <p>Ligamos o ESP TTGO na protoboard junto com os sensores BMP280 e SMP3011.</p>
+        <img src="..\Imagens\montagem.jpg" alt="Medidor de pressão já montado" style="  width: 400px; 
+        height: 300px; 
+        border-radius: 15px; 
+        display: block;
+        margin: 10px auto">
+        <p>Estamos utilizando os pinos 4 e 5 do ESP32 como SDA e SCL para a comunicação via I2C.</p>
+        <br/>
+        <br/>
+        <h4>Encapsulamento do Projeto:</h4>
+        <br/>
+        <br/>
+        <p>O modelo foi desenhado no Autodesk Fusion:</p>
+        <img src="..\Imagens\desenho.png" alt="Desenho do encapsulamento no Fusion" style=" 
+        border-radius: 15px; 
+        display: block;
+        margin: 10px auto">
+        <br/>
+        <br/>
+        <p>A impressão 3D do encapsulamento foi terceirizada para maior produtividade.</p>
+        <img src="..\Imagens\modelo.png" alt="Modelo físico do projeto (Parte externa)" style="    border-radius: 15px; 
+        display: block;
+        margin: 10px auto">
+        <br/>
+        <p>Após inserir o ESP32 e o sensor de pressão, realizamos testes para garantir a vedação do ar.</p>
+        <p>O protótipo atende a maioria dos requisitos do projeto, mas ainda precisa de ajustes no acabamento interno e na vedação do ar.</p>
+        <br/>
+        <h4>Imagem do Aferidor finalizado:</h4>
+        <p>E foi assim que ficou o medidor de pressão: </p>
+        <img src="..\Imagens\Aferidor.png" alt="Modelo físico do projeto (Parte externa)" style="    border-radius: 15px; 
+        display: block;
+        margin: 10px auto">
+
+
+
+
+    </section>
+
+    <footer>
+        <a href="escopo.html">Página Anterior</a> | <a href="index.html">Próxima Página</a>
+    </footer>
+
+    
+</body>
+</html>
