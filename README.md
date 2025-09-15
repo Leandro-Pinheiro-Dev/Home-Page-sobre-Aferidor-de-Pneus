@@ -107,7 +107,7 @@ O site contém informações sobre:
 
 - [Asana: O que é escopo de projeto](https://asana.com/pt/resources/project-scope)  
 - [Mestres da Web: Requisitos Funcionais e Não Funcionais](https://www.mestresdaweb.com.br/tecnologias/requisitos-funcionais-e-nao-funcionais-o-que-sao)  
-- [Dantas, C.: Medidor de pressão ESP32](https://github.com/cadantas33/medidor-pressao-esp32?tab=readme-ov-file)  
+- [Pinheiro, L.: Medidor de pressão ESP32](https://github.com/Leandro-Pinheiro-Dev/medidor-pressao-esp32-?tab=readme-ov-file)  
 - [Bosch: BMP280 - Pressure Sensors](https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/)  
 - [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/)
 
