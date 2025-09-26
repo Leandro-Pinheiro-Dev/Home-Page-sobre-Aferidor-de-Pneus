@@ -122,4 +122,3 @@ Trabalho Universitário / Projeto Real de Engenharia
 
 ---
 
-> Para mais informações, acesse as páginas internas do projeto: [Escopo](escopo.html) | [Especificações](produto.html) | [Vídeos do Projeto](video.html)
