@@ -8,6 +8,7 @@
 Este projeto é desenvolvido como parte de um **trabalho universitário**, apresentando um **protótipo real de aferidor de pressão para pneus**. Ele integra conceitos de **engenharia, eletrônica e desenvolvimento web** para demonstrar de forma prática como medir a pressão dos pneus de um veículo, com precisão e sustentabilidade.
 
 site: https://aferidor.netlify.app/
+codigo do projeto: https://github.com/Leandro-Pinheiro-Dev/STM32-medidor-
 
 O site contém informações sobre:
 
